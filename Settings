@@ -20,4 +20,4 @@ apply(polarcanse, {
 local printing = require(game.ReplicatedStorage._polarcanse_moudle) --watermark and rights thingy
 
 printing.P() -- runs
---printing.SetEnabled(false) --closes, you have to delete the "printing.P()"
+--printing.SetEnabled(false) --closes, btw you have to delete the "printing.P()"
