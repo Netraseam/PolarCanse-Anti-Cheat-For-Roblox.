@@ -1,4 +1,5 @@
---place in replicatedstorage
+--Place In ReplicatedStorage --
+--_polarcanse_moudle-- ← required NOT optinal
 
 local M = {}
 
