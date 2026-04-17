@@ -1,4 +1,4 @@
---Polarcanse Anti-Cheat System v.4.5-- 
+--Polarcanse Anti-Cheat System v.4.5-- ← The Code Name (Optinal)
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
