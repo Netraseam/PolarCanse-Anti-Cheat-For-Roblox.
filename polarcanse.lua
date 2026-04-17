@@ -1,4 +1,4 @@
-bu kod --Polarcanse Anti-Cheat System v.4.5-- 
+--Polarcanse Anti-Cheat System v.4.5-- 
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
