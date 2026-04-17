@@ -1,0 +1,23 @@
+local polarcanse=game.ServerScriptService["Polarcanse Anti-Cheat v4.5"]
+
+local function apply(obj, settings)
+	for k, v in pairs(settings) do
+		obj[k] = v
+	end
+end
+
+--[[   
+you can change however you want (btw if u disable printing it would disable my watermark ANDD right
+on the output so if its not ruining your game pls dont disable it, but you are free to disable it (✿◡‿◡)   
+)]]
+
+apply(polarcanse, {
+	Enabled = true,
+	Archivable = true,
+
+})
+
+local printing = require(game.ReplicatedStorage._polarcanse_moudle) --watermark and rights thingy
+
+printing.P() -- runs
+--printing.SetEnabled(false) --closes, you have to delete the "printing.P()"
